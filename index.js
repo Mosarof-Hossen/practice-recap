@@ -68,7 +68,7 @@ const displayLevelWord = (words) => {
       <p class="text-center">Meaning/Pronounciation</p>
       <p class="text-center">${word.meaning ? word.meaning : "শব্দ পাওয়া যাইনি "}/${word.pronunciation ? word.pronunciation : "শব্দ পাওয়া যাইনি "}</p>
       <div class="flex justify-between font-bold text-2xl">
-        <span class="text-white p-2 rounded bg-cyan-600 hover:bg-amber-800"><i class="fa-solid fa-circle-info"></i></span>
+        <span onclick="my_modal_5.showModal()" class="text-white p-2 rounded bg-cyan-600 hover:bg-amber-800"><i class="fa-solid fa-circle-info"></i></span>
         <span class= "text-white p-2 rounded bg-cyan-600 hover:bg-amber-800 "><i class="fa-solid fa-volume-high"></i></span>
       </div>
     </div>
